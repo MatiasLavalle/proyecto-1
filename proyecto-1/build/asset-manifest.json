@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/proyecto-1/static/css/main.f6c56b20.chunk.css",
+    "main.js": "/proyecto-1/static/js/main.8399efb2.chunk.js",
+    "main.js.map": "/proyecto-1/static/js/main.8399efb2.chunk.js.map",
+    "runtime-main.js": "/proyecto-1/static/js/runtime-main.9ae12b9c.js",
+    "runtime-main.js.map": "/proyecto-1/static/js/runtime-main.9ae12b9c.js.map",
+    "static/js/2.306e76ed.chunk.js": "/proyecto-1/static/js/2.306e76ed.chunk.js",
+    "static/js/2.306e76ed.chunk.js.map": "/proyecto-1/static/js/2.306e76ed.chunk.js.map",
+    "index.html": "/proyecto-1/index.html",
+    "precache-manifest.438321e7c5bf04d5c20bc342f7525ffc.js": "/proyecto-1/precache-manifest.438321e7c5bf04d5c20bc342f7525ffc.js",
+    "service-worker.js": "/proyecto-1/service-worker.js",
+    "static/css/main.f6c56b20.chunk.css.map": "/proyecto-1/static/css/main.f6c56b20.chunk.css.map",
+    "static/js/2.306e76ed.chunk.js.LICENSE.txt": "/proyecto-1/static/js/2.306e76ed.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/proyecto-1/static/media/fondoMosaico.3c7ab205.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ae12b9c.js",
+    "static/js/2.306e76ed.chunk.js",
+    "static/css/main.f6c56b20.chunk.css",
+    "static/js/main.8399efb2.chunk.js"
+  ]
+}
