@@ -1,13 +1,283 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.body{
+  color :white;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin:0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-image:url(./imagenes/fondoMosaico.jpg);
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.marcadores{
+  background-color: rgb(245, 245, 245);
+
+  height: fit-content;
+  width: 100%;
+  
+
+  border-bottom-left-radius:5px ;
+  border-bottom-right-radius:5px ;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  margin-bottom: 100px;
+}   
+
+.bots{
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5px;  
+  font-size:25px ;  
+
+  background-color:rgba(35, 123, 182, 0.746);
+}
+
+
+.principal{
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+.btn{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border:2px white solid;
+  background-color: red;
+  color:white;
+  text-shadow: 3px 3px 5px black;
+
+  font-size: 50px;
+  cursor: pointer;
+  top:0px;
+
+  box-shadow: 10px 20px 20px black;
+
+  transition: all 0.5s;
+  
+}
+
+.btnCotainer{
+  margin-right: 10px;
+}
+
+.contadorContainer{
+  color:black;
+  display: flex;
+  flex-direction: column;
+}
+
+.nombreUsuario{
+  border:1px #808080a2 solid;
+  padding:10px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+
+.nombreUsuario2{
+  display: none;
+
+}
+
+.submit{
+  height: 25px;
+  width: 40px;
+}
+
+.contador{
+  border:1px #808080a2 solid;
+  padding:10px;
+  height: 100px;
+  width: 250px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.colorAsignado{
+  border:1px #808080a2 solid;
+  padding:10px;
+
+  height: 50px;
+  width: 250px;
+
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorDeBot1{
+  height: 40px;
+  width: 200px;
+  background-color:grey ;
+}
+
+.colorDeBot2{
+  height: 40px;
+  width: 200px;
+  background-color:grey ;
+}
+
+.colorDeBot3{
+  height: 40px;
+  width: 200px;
+  background-color:grey ;
+}
+
+.colorDeBot4{
+  height: 40px;
+  width: 200px;
+  background-color:grey ;
+}
+
+.linea{
+  height: 400px;
+  width: 3px;
+  background-color: rgba(128, 128, 128, 0.74);
+}
+
+
+
+.tablaDePuntajes{
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  display: none;
+}
+
+.listadoDeParticipantes{
+  width: 250px;
+}
+
+.listadoDeParticipantes div{
+  margin: 12px;
+}
+
+.estadisticas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.estadisticasBox{
+  background-color:white ;
+  border:1px rgba(128, 128, 128, 0.637) solid;
+  height: 160px;
+  width: 130px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score{
+  font-size: 50px;
+}
+
+#violeta{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  border:1px black solid;
+  margin-top: 10px;
+}
+
+#amarillo{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: yellow;
+  border:1px black solid;
+  margin-top: 10px;
+}
+
+#rojo{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color:red;
+  border:1px black solid;
+  margin-top: 10px;
+}
+
+#verde{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: green;
+  border:1px black solid;
+  margin-top: 10px;
+}
+
+#naranja{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: orangered;
+  border:1px black solid;
+  margin-top: 10px;
+}
+
+#azul{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: blue;
+  border:1px black solid;
+  margin-top: 10px;
+}
+
+#blanco{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color:white;
+  border:1px black solid;
+  margin-top: 10px;
+}
+
+#gris{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: grey;
+  border:1px black solid;
+  margin-top: 10px;
 }
